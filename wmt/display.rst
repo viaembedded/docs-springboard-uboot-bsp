@@ -3,6 +3,18 @@
 Display parameters
 ------------------
 
+.. data:: wmt.display.dual
+
+Dual-display support, ``0`` is single display, ``1`` is dual display. Does not necessarily work with all possible display types (see types below).
+
+.. data:: wmt.display.logoaddr
+
+Boot up logo loading address. Example: ``setenv wmt.display.logoaddr 0x0``.
+
+   .. todo::
+
+      Figure logo address out.
+
 .. data:: wmt.display.param
 
 Display settings, for example ``setenv wmt.display.param 4:6:1:1920:1080:60``. The options follow as ``type:op1:op2:resx:resy:fps``.
@@ -41,3 +53,7 @@ The acceptable types are:
    +---------+----------------------------------------------------------+
    | ``10``  | ``VOUT_MODE_ALL``, equal to ``VOUT_MODE_MAX``            |
    +---------+----------------------------------------------------------+
+
+.. data:: wmt.display.pwm
+
+Possibly LCD backlight setting.
