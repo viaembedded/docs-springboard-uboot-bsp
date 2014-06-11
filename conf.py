@@ -46,8 +46,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Springboard BSP u-boot'
-copyright = '2014, VIA'
+project = 'Springboard BSP uboot'
+copyright = 'CC-BY-4.0 2014, VIA'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -96,6 +96,7 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
+todo_include_todos = True
 
 # -- Options for HTML output ----------------------------------------------
 
