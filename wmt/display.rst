@@ -3,9 +3,33 @@
 Display parameters
 ------------------
 
+.. envvar:: wmt.display.default.res
+
+   .. todo::
+
+      Check valid parameters.
+
 .. envvar:: wmt.display.dual
 
 Dual-display support, ``0`` is single display, ``1`` is dual display. Does not necessarily work with all possible display types (see types below).
+
+.. envvar:: wmt.display.dvi.dev
+
+   .. todo::
+
+      Check valid parameters.
+
+.. envvar:: wmt.display.hdmi.vmode
+
+   .. todo::
+
+      Check valid parameters.
+
+.. envvar:: wmt.display.hdmi_audio_inf
+
+   .. todo::
+
+      Check valid parameters.
 
 .. envvar:: wmt.display.logoaddr
 
@@ -54,6 +78,30 @@ The acceptable types are:
    | ``10``  | ``VOUT_MODE_ALL``, equal to ``VOUT_MODE_MAX``            |
    +---------+----------------------------------------------------------+
 
+.. envvar:: wmt.display.param2
+
+   .. todo::
+
+      Check valid parameters.
+
 .. envvar:: wmt.display.pwm
 
 Possibly LCD backlight setting.
+
+.. envvar:: wmt.display.regop
+
+   .. todo::
+
+      Check valid parameters.
+
+.. envvar:: wmt.display.tmr
+
+   .. todo::
+
+      Check valid parameters.
+
+.. envvar:: wmt.display.upbound
+
+   .. todo::
+
+      Check valid parameters.
